@@ -1,0 +1,6 @@
+sentence = input("Enter a sentence: ")
+
+y = sentence.split()
+
+print(y)
+print(len(y))
