@@ -1,5 +1,10 @@
-day_of_week = input("what day is it? ")
-if day_of_week == "Friday":
-    print("correct")
-else:
-    print("incorrect")
+def total(bad, okay, good, great):
+    food= (float(input("How was the food?")))
+    if food == bad:
+        print(total := food+bad*1)
+    elif food == okay:
+        print(total := food+okay * 1.15)
+    elif food == good:
+        print(total := food+good * 1.2)
+    elif food == great:
+        print(total := food+great * 1.25)
