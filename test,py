@@ -1,10 +1,19 @@
 def total(bad, okay, good, great):
     food= (float(input("How was the food?")))
     if food == bad:
-        print(total := food+bad*1)
+        print(total := food*bad*0)
     elif food == okay:
-        print(total := food+okay * 1.15)
+        print(total := food*okay*0.15)
     elif food == good:
-        print(total := food+good * 1.2)
+        print(total := food*good*0.2)
     elif food == great:
-        print(total := food+great * 1.25)
+        print(total := food*great*0.25)
+
+
+bad=0
+okay=0.15
+good=0.2
+great=0.25
+x=50
+food=x
+total=(food*bad*0)or(food*okay*0.15)or(food*good*0.2)or(food*great*0.25)
