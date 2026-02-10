@@ -1,19 +1,37 @@
-def total(bad, okay, good, great):
-    food= (float(input("How was the food?")))
-    if food == bad:
-        print(total := food*bad*0)
-    elif food == okay:
-        print(total := food*okay*0.15)
-    elif food == good:
-        print(total := food*good*0.2)
-    elif food == great:
-        print(total := food*great*0.25)
+""" bad=1
+okay=1.15
+good=1.2
+great=1.25
+bill=100
+food= input("How was the food?")
+if food == "bad":
+       bill *=bad
+elif food == "okay":
+        bill  *=okay
+elif food == "good":
+        bill *=good
+elif food == "great":
+        bill *=great
+        print(f"The bill is {bill} dollars") """
 
 
-bad=0
-okay=0.15
-good=0.2
-great=0.25
-x=50
-food=x
-total=(food*bad*0)or(food*okay*0.15)or(food*good*0.2)or(food*great*0.25)
+
+""" Num=89
+Input   =   input(f"The number is {Num}, correct?")
+if Input == "yes":
+    print(f"The divisors of the numbers are:")
+    for i in range(1, Num + 1):
+        if Num % i == 0:
+            print(i)
+else: print(f"Nothing else") """
+
+
+""" 
+Num1=900
+Num2=270
+# Find the greatest common factor (GCF) of Num1 and Num2
+GCF = 1
+for i in range(1, min(Num1, Num2) + 1):
+    if Num1 % i == 0 and Num2 % i == 0:
+        GCF = i
+print(f"The GCF is of {Num1} and {Num2} is {GCF}") """
