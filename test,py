@@ -26,12 +26,12 @@ if Input == "yes":
 else: print(f"Nothing else") """
 
 
-""" 
-Num1=900
-Num2=270
+
+Num1=600
+Num2=90
 # Find the greatest common factor (GCF) of Num1 and Num2
 GCF = 1
 for i in range(1, min(Num1, Num2) + 1):
     if Num1 % i == 0 and Num2 % i == 0:
         GCF = i
-print(f"The GCF is of {Num1} and {Num2} is {GCF}") """
+print(f"The GCF is of {Num1} and {Num2} is {GCF}")
